@@ -1,0 +1,75 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --< org.apache.shardingsphere.example:sharding-spring-namespace-mybatis >--
+[INFO] Building sharding-spring-namespace-mybatis 4.1.1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.7.0:tree (default-cli) @ sharding-spring-namespace-mybatis ---
+[INFO] org.apache.shardingsphere.example:sharding-spring-namespace-mybatis:jar:4.1.1
+[INFO] +- org.apache.shardingsphere:sharding-jdbc-core:jar:4.1.1:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-pluggable:jar:4.1.1:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-sql-parser-binder:jar:4.1.1:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-route:jar:4.1.1:compile
+[INFO] |  |  |  \- org.apache.shardingsphere:shardingsphere-common:jar:4.1.1:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-rewrite-engine:jar:4.1.1:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-executor:jar:4.1.1:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-merge:jar:4.1.1:compile
+[INFO] |  +- org.apache.shardingsphere:sharding-transaction-core:jar:4.1.1:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-sql-parser-sql92:jar:4.1.1:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-sql-parser-engine:jar:4.1.1:compile
+[INFO] |  |     +- org.apache.shardingsphere:shardingsphere-spi:jar:4.1.1:compile
+[INFO] |  |     +- org.apache.shardingsphere:shardingsphere-sql-parser-spi:jar:4.1.1:compile
+[INFO] |  |     +- org.apache.shardingsphere:shardingsphere-sql-parser-statement:jar:4.1.1:compile
+[INFO] |  |     +- org.apache.commons:commons-collections4:jar:4.2:compile
+[INFO] |  |     \- org.antlr:antlr4-runtime:jar:4.7.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-sql-parser-mysql:jar:4.1.1:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-sql-parser-postgresql:jar:4.1.1:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-sql-parser-oracle:jar:4.1.1:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-sql-parser-sqlserver:jar:4.1.1:compile
+[INFO] |  +- org.apache.shardingsphere:sharding-core-route:jar:4.1.1:compile
+[INFO] |  |  \- org.apache.shardingsphere:sharding-core-common:jar:4.1.1:compile
+[INFO] |  |     +- org.codehaus.groovy:groovy:jar:indy:2.4.5:compile
+[INFO] |  |     +- org.yaml:snakeyaml:jar:1.16:compile
+[INFO] |  |     \- commons-codec:commons-codec:jar:1.10:compile
+[INFO] |  +- org.apache.shardingsphere:master-slave-core-route:jar:4.1.1:compile
+[INFO] |  |  \- org.apache.shardingsphere:sharding-core-api:jar:4.1.1:compile
+[INFO] |  |     \- org.apache.shardingsphere:encrypt-core-api:jar:4.1.1:compile
+[INFO] |  +- org.apache.shardingsphere:sharding-core-rewrite:jar:4.1.1:compile
+[INFO] |  +- org.apache.shardingsphere:encrypt-core-rewrite:jar:4.1.1:compile
+[INFO] |  +- org.apache.shardingsphere:shadow-core-rewrite:jar:4.1.1:compile
+[INFO] |  +- org.apache.shardingsphere:sharding-core-execute:jar:4.1.1:compile
+[INFO] |  +- org.apache.shardingsphere:sharding-core-merge:jar:4.1.1:compile
+[INFO] |  +- org.apache.shardingsphere:encrypt-core-merge:jar:4.1.1:compile
+[INFO] |  |  \- org.apache.shardingsphere:encrypt-core-common:jar:4.1.1:compile
+[INFO] |  +- com.google.guava:guava:jar:18.0:compile
+[INFO] |  \- org.slf4j:jcl-over-slf4j:jar:1.7.7:compile
+[INFO] +- org.apache.shardingsphere:sharding-jdbc-spring-namespace:jar:4.1.1:compile
+[INFO] |  \- org.apache.shardingsphere:sharding-transaction-spring:jar:4.1.1:compile
+[INFO] +- org.mybatis:mybatis:jar:3.5.9:compile
+[INFO] +- org.mybatis:mybatis-spring:jar:3.0.4:compile
+[INFO] +- org.springframework:spring-orm:jar:6.2.5:compile
+[INFO] |  +- org.springframework:spring-beans:jar:6.2.5:compile
+[INFO] |  +- org.springframework:spring-core:jar:6.2.5:compile
+[INFO] |  |  \- org.springframework:spring-jcl:jar:6.2.5:compile
+[INFO] |  +- org.springframework:spring-jdbc:jar:6.2.5:compile
+[INFO] |  \- org.springframework:spring-tx:jar:6.2.5:compile
+[INFO] +- org.springframework:spring-context-support:jar:6.2.5:compile
+[INFO] |  \- org.springframework:spring-context:jar:6.2.5:compile
+[INFO] |     +- org.springframework:spring-aop:jar:6.2.5:compile
+[INFO] |     +- org.springframework:spring-expression:jar:6.2.5:compile
+[INFO] |     \- io.micrometer:micrometer-observation:jar:1.14.5:compile
+[INFO] |        \- io.micrometer:micrometer-commons:jar:1.14.5:compile
+[INFO] +- org.projectlombok:lombok:jar:1.18.38:provided
+[INFO] +- com.zaxxer:HikariCP:jar:3.4.2:compile
+[INFO] +- com.mysql:mysql-connector-j:jar:9.2.0:compile
+[INFO] |  \- com.google.protobuf:protobuf-java:jar:4.29.0:compile
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.36:compile
+[INFO] \- ch.qos.logback:logback-classic:jar:1.2.13:compile
+[INFO]    \- ch.qos.logback:logback-core:jar:1.2.13:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.179 s
+[INFO] Finished at: 2025-04-12T21:56:25+08:00
+[INFO] ------------------------------------------------------------------------

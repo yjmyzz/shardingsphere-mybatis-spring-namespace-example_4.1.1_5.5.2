@@ -1,0 +1,210 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --< org.apache.shardingsphere.example:sharding-spring-namespace-mybatis >--
+[INFO] Building sharding-spring-namespace-mybatis 5.5.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.7.0:tree (default-cli) @ sharding-spring-namespace-mybatis ---
+[INFO] org.apache.shardingsphere.example:sharding-spring-namespace-mybatis:jar:5.5.2
+[INFO] +- org.apache.shardingsphere:shardingsphere-jdbc:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-infra-url-core:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-infra-url-spi:jar:5.5.2:compile
+[INFO] |  |     \- org.apache.shardingsphere:shardingsphere-infra-spi:jar:5.5.2:compile
+[INFO] |  |        \- org.apache.shardingsphere:shardingsphere-infra-exception-core:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-infra-url-classpath:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-infra-url-absolutepath:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-transaction-core:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-transaction-api:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-infra-executor:jar:5.5.2:compile
+[INFO] |  |     \- com.alibaba:transmittable-thread-local:jar:2.14.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-global-clock-core:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-global-clock-api:jar:5.5.2:compile
+[INFO] |  |  |  \- org.apache.shardingsphere:shardingsphere-infra-common:jar:5.5.2:compile
+[INFO] |  |  |     +- org.apache.shardingsphere:shardingsphere-infra-util:jar:5.5.2:compile
+[INFO] |  |  |     |  +- org.yaml:snakeyaml:jar:2.2:compile
+[INFO] |  |  |     |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.16.1:compile
+[INFO] |  |  |     |  \- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.16.1:compile
+[INFO] |  |  |     +- org.apache.shardingsphere:shardingsphere-infra-database-mariadb:jar:5.5.2:compile
+[INFO] |  |  |     +- org.apache.shardingsphere:shardingsphere-infra-database-h2:jar:5.5.2:compile
+[INFO] |  |  |     +- org.apache.shardingsphere:shardingsphere-infra-database-clickhouse:jar:5.5.2:compile
+[INFO] |  |  |     +- org.apache.shardingsphere:shardingsphere-infra-database-p6spy:jar:5.5.2:compile
+[INFO] |  |  |     \- org.apache.shardingsphere:shardingsphere-infra-data-source-pool-hikari:jar:5.5.2:compile
+[INFO] |  |  |        \- org.apache.shardingsphere:shardingsphere-infra-data-source-pool-core:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-mode-core:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-global-clock-tso-provider-local:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-global-clock-tso-spi:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-parser-sql-sql92:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-infra-database-sql92:jar:5.5.2:compile
+[INFO] |  |  |  \- org.apache.shardingsphere:shardingsphere-infra-database-core:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-parser-sql-engine:jar:5.5.2:compile
+[INFO] |  |     +- org.apache.shardingsphere:shardingsphere-parser-sql-spi:jar:5.5.2:compile
+[INFO] |  |     +- org.apache.shardingsphere:shardingsphere-parser-sql-statement-clickhouse:jar:5.5.2:compile
+[INFO] |  |     |  \- org.apache.shardingsphere:shardingsphere-parser-sql-statement-core:jar:5.5.2:compile
+[INFO] |  |     +- org.apache.shardingsphere:shardingsphere-parser-sql-statement-doris:jar:5.5.2:compile
+[INFO] |  |     +- org.apache.shardingsphere:shardingsphere-parser-sql-statement-firebird:jar:5.5.2:compile
+[INFO] |  |     +- org.apache.shardingsphere:shardingsphere-parser-sql-statement-hive:jar:5.5.2:compile
+[INFO] |  |     +- org.apache.shardingsphere:shardingsphere-parser-sql-statement-mysql:jar:5.5.2:compile
+[INFO] |  |     +- org.apache.shardingsphere:shardingsphere-parser-sql-statement-opengauss:jar:5.5.2:compile
+[INFO] |  |     +- org.apache.shardingsphere:shardingsphere-parser-sql-statement-oracle:jar:5.5.2:compile
+[INFO] |  |     +- org.apache.shardingsphere:shardingsphere-parser-sql-statement-postgresql:jar:5.5.2:compile
+[INFO] |  |     +- org.apache.shardingsphere:shardingsphere-parser-sql-statement-presto:jar:5.5.2:compile
+[INFO] |  |     +- org.apache.shardingsphere:shardingsphere-parser-sql-statement-sql92:jar:5.5.2:compile
+[INFO] |  |     +- org.apache.shardingsphere:shardingsphere-parser-sql-statement-sqlserver:jar:5.5.2:compile
+[INFO] |  |     +- org.antlr:antlr4-runtime:jar:4.10.1:compile
+[INFO] |  |     \- com.github.ben-manes.caffeine:caffeine:jar:2.9.3:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-parser-sql-mysql:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-infra-database-mysql:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-parser-sql-postgresql:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-infra-database-postgresql:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-parser-sql-oracle:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-infra-database-oracle:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-parser-sql-sqlserver:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-infra-database-sqlserver:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-parser-sql-opengauss:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-infra-database-opengauss:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-parser-sql-firebird:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-infra-database-firebird:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-mysql-dialect-exception:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-infra-exception-dialect-core:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-postgresql-dialect-exception:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-authority-core:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-authority-api:jar:5.5.2:compile
+[INFO] |  |  |  \- org.apache.shardingsphere:shardingsphere-infra-algorithm-core:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-mode-node:jar:5.5.2:compile
+[INFO] |  |     \- org.apache.shardingsphere:shardingsphere-mode-spi:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-single-core:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-single-api:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-sql-federation-api:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-infra-route:jar:5.5.2:compile
+[INFO] |  |     \- org.apache.shardingsphere:shardingsphere-infra-checker:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-infra-context:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-infra-session:jar:5.5.2:compile
+[INFO] |  |  |  \- org.apache.shardingsphere:shardingsphere-infra-binder:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-parser-distsql-engine:jar:5.5.2:compile
+[INFO] |  |  |  \- org.apache.shardingsphere:shardingsphere-parser-distsql-statement:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-authority-simple:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-authority-database:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-sql-translator-core:jar:5.5.2:compile
+[INFO] |  |     \- org.apache.shardingsphere:shardingsphere-sql-translator-api:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-standalone-mode-core:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-standalone-mode-repository-api:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-standalone-mode-repository-jdbc:jar:5.5.2:compile
+[INFO] |  |  \- com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.16.1:compile
+[INFO] |  |     +- com.fasterxml.jackson.core:jackson-core:jar:2.16.1:compile
+[INFO] |  |     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.16.1:compile
+[INFO] |  |     +- com.fasterxml.jackson.core:jackson-databind:jar:2.16.1:compile
+[INFO] |  |     +- org.codehaus.woodstox:stax2-api:jar:4.2.1:compile
+[INFO] |  |     \- com.fasterxml.woodstox:woodstox-core:jar:6.5.1:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-cluster-mode-core:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-cluster-mode-repository-api:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-sharding-core:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-sharding-api:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-infra-merge:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-time-service-core:jar:5.5.2:compile
+[INFO] |  |  |  \- org.apache.shardingsphere:shardingsphere-time-service-api:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-system-time-service:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-infra-expr-core:jar:5.5.2:compile
+[INFO] |  |  |  +- org.apache.shardingsphere:shardingsphere-infra-expr-spi:jar:5.5.2:compile
+[INFO] |  |  |  +- org.apache.shardingsphere:shardingsphere-infra-expr-groovy:jar:5.5.2:compile
+[INFO] |  |  |  |  \- org.apache.groovy:groovy:jar:4.0.22:compile
+[INFO] |  |  |  +- org.apache.shardingsphere:shardingsphere-infra-expr-literal:jar:5.5.2:compile
+[INFO] |  |  |  \- org.apache.shardingsphere:shardingsphere-infra-expr-interval:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-infra-algorithm-key-generator-uuid:jar:5.5.2:compile
+[INFO] |  |  |  \- org.apache.shardingsphere:shardingsphere-infra-algorithm-key-generator-core:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-infra-algorithm-key-generator-snowflake:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-broadcast-core:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-broadcast-api:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-readwrite-splitting-core:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-readwrite-splitting-api:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-infra-algorithm-load-balancer-random:jar:5.5.2:compile
+[INFO] |  |  |  \- org.apache.shardingsphere:shardingsphere-infra-algorithm-load-balancer-core:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-infra-algorithm-load-balancer-round-robin:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-infra-algorithm-load-balancer-weight:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-encrypt-core:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-encrypt-api:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-infra-algorithm-message-digest-md5:jar:5.5.2:compile
+[INFO] |  |  |  \- org.apache.shardingsphere:shardingsphere-infra-algorithm-message-digest-core:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-infra-algorithm-cryptographic-aes:jar:5.5.2:compile
+[INFO] |  |  |  \- org.apache.shardingsphere:shardingsphere-infra-algorithm-cryptographic-core:jar:5.5.2:compile
+[INFO] |  |  \- commons-codec:commons-codec:jar:1.16.0:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-mask-core:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-mask-api:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-shadow-core:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-shadow-api:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-infra-rewrite:jar:5.5.2:compile
+[INFO] |  |     \- org.apache.shardingsphere:shardingsphere-sql-translator-native-provider:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-sql-federation-core:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-sql-federation-executor:jar:5.5.2:compile
+[INFO] |  |     \- org.apache.shardingsphere:shardingsphere-sql-federation-optimizer:jar:5.5.2:compile
+[INFO] |  |        +- org.apache.calcite:calcite-core:jar:1.38.0:compile
+[INFO] |  |        |  +- org.apache.calcite:calcite-linq4j:jar:1.38.0:compile
+[INFO] |  |        |  +- org.locationtech.jts:jts-core:jar:1.19.0:compile
+[INFO] |  |        |  +- org.locationtech.jts.io:jts-io-common:jar:1.19.0:compile
+[INFO] |  |        |  |  \- com.googlecode.json-simple:json-simple:jar:1.1.1:compile
+[INFO] |  |        |  +- org.locationtech.proj4j:proj4j:jar:1.2.2:compile
+[INFO] |  |        |  +- org.apache.calcite.avatica:avatica-core:jar:1.25.0:compile
+[INFO] |  |        |  |  +- org.apache.calcite.avatica:avatica-metrics:jar:1.25.0:compile
+[INFO] |  |        |  |  \- org.apache.httpcomponents.core5:httpcore5:jar:5.2.3:runtime
+[INFO] |  |        |  +- org.apiguardian:apiguardian-api:jar:1.1.2:compile
+[INFO] |  |        |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.15.2:runtime
+[INFO] |  |        |  +- com.google.uzaygezen:uzaygezen-core:jar:0.2:runtime
+[INFO] |  |        |  +- com.yahoo.datasketches:sketches-core:jar:0.9.0:runtime
+[INFO] |  |        |  |  \- com.yahoo.datasketches:memory:jar:0.9.0:runtime
+[INFO] |  |        |  +- net.hydromatic:aggdesigner-algorithm:jar:6.0:runtime
+[INFO] |  |        |  |  +- commons-lang:commons-lang:jar:2.4:runtime
+[INFO] |  |        |  |  \- commons-logging:commons-logging:jar:1.1.3:runtime
+[INFO] |  |        |  +- org.apache.commons:commons-dbcp2:jar:2.11.0:runtime
+[INFO] |  |        |  |  +- org.apache.commons:commons-pool2:jar:2.12.0:runtime
+[INFO] |  |        |  |  \- jakarta.transaction:jakarta.transaction-api:jar:1.3.3:runtime
+[INFO] |  |        |  +- org.apache.commons:commons-math3:jar:3.6.1:runtime
+[INFO] |  |        |  +- org.apache.commons:commons-text:jar:1.11.0:runtime
+[INFO] |  |        |  +- org.codehaus.janino:commons-compiler:jar:3.1.11:runtime
+[INFO] |  |        |  \- org.codehaus.janino:janino:jar:3.1.11:runtime
+[INFO] |  |        \- com.jayway.jsonpath:json-path:jar:2.9.0:compile
+[INFO] |  |           \- net.minidev:json-smart:jar:2.5.0:runtime
+[INFO] |  |              \- net.minidev:accessors-smart:jar:2.5.0:runtime
+[INFO] |  |                 \- org.ow2.asm:asm:jar:9.3:runtime
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-sql-parser-core:jar:5.5.2:compile
+[INFO] |  |  +- org.apache.shardingsphere:shardingsphere-sql-parser-api:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-infra-parser:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-logging-core:jar:5.5.2:compile
+[INFO] |  |  \- org.apache.shardingsphere:shardingsphere-logging-api:jar:5.5.2:compile
+[INFO] |  +- org.apache.shardingsphere:shardingsphere-infra-reachability-metadata:jar:5.5.2:compile
+[INFO] |  +- com.h2database:h2:jar:2.2.224:runtime
+[INFO] |  +- com.google.guava:guava:jar:32.1.2-jre:compile
+[INFO] |  |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  |  +- org.checkerframework:checker-qual:jar:3.33.0:compile
+[INFO] |  |  +- com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
+[INFO] |  |  \- com.google.j2objc:j2objc-annotations:jar:2.8:compile
+[INFO] |  +- org.apache.commons:commons-lang3:jar:3.15.0:compile
+[INFO] |  +- org.slf4j:jcl-over-slf4j:jar:1.7.36:compile
+[INFO] |  \- com.cedarsoftware:java-util:jar:2.4.0:compile
+[INFO] +- org.mybatis:mybatis:jar:3.5.9:compile
+[INFO] +- org.mybatis:mybatis-spring:jar:3.0.4:compile
+[INFO] +- org.springframework:spring-orm:jar:6.2.5:compile
+[INFO] |  +- org.springframework:spring-beans:jar:6.2.5:compile
+[INFO] |  +- org.springframework:spring-core:jar:6.2.5:compile
+[INFO] |  |  \- org.springframework:spring-jcl:jar:6.2.5:compile
+[INFO] |  +- org.springframework:spring-jdbc:jar:6.2.5:compile
+[INFO] |  \- org.springframework:spring-tx:jar:6.2.5:compile
+[INFO] +- org.springframework:spring-context-support:jar:6.2.5:compile
+[INFO] |  \- org.springframework:spring-context:jar:6.2.5:compile
+[INFO] |     +- org.springframework:spring-aop:jar:6.2.5:compile
+[INFO] |     +- org.springframework:spring-expression:jar:6.2.5:compile
+[INFO] |     \- io.micrometer:micrometer-observation:jar:1.14.5:compile
+[INFO] |        \- io.micrometer:micrometer-commons:jar:1.14.5:compile
+[INFO] +- org.projectlombok:lombok:jar:1.18.38:provided
+[INFO] +- com.zaxxer:HikariCP:jar:3.4.2:compile
+[INFO] +- com.mysql:mysql-connector-j:jar:9.2.0:compile
+[INFO] |  \- com.google.protobuf:protobuf-java:jar:4.29.0:compile
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.36:compile
+[INFO] \- ch.qos.logback:logback-classic:jar:1.2.13:compile
+[INFO]    \- ch.qos.logback:logback-core:jar:1.2.13:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.587 s
+[INFO] Finished at: 2025-04-12T21:57:21+08:00
+[INFO] ------------------------------------------------------------------------
